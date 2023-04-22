@@ -1,0 +1,20 @@
+package com.sukla.comps;
+
+public class Swift implements Car
+{
+
+	@Override
+	public void assemble()
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void roadTest()
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

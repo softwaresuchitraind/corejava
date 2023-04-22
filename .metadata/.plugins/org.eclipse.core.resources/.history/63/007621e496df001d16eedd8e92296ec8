@@ -1,0 +1,6 @@
+package com.sukla.comps;
+
+public interface Car
+{
+
+}

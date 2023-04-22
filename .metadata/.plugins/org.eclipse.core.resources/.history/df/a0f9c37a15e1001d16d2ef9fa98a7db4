@@ -1,0 +1,26 @@
+package com.sukla.comps;
+
+public class BalenoCar implements Car
+{
+	private CarTyres tyres;
+	public BalenoCar(CarTyres tyres)
+	{
+		
+		this.tyres = tyres;
+	}
+
+	@Override
+	public void assemble()
+	{
+		System.out.println("Baleno Car :: is assembled");
+
+	}
+
+	@Override
+	public void roadTest()
+	{
+		System.out.println("Baleno Car :: is road tested");
+
+	}
+
+}

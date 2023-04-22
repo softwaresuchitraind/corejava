@@ -1,0 +1,29 @@
+package com.sukla.comps;
+
+public class BalenoCar implements Car
+{
+	private CarTyres tyres;
+	
+	
+	
+	public BalenoCar(CarTyres tyres)
+	{
+		super();
+		this.tyres = tyres;
+	}
+
+	@Override
+	public void assemble()
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void roadTest()
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

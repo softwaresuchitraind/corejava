@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Proj05-FactoryPattern-Problem2&apos; to &apos;Proj05-FactoryPattern-Solution&apos;" description="Rename resource &apos;Proj05-FactoryPattern-Problem2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Proj05-FactoryPattern-Problem2" name="Proj05-FactoryPattern-Solution" stamp="1682173041542" updateReferences="true"/>
+</session>
