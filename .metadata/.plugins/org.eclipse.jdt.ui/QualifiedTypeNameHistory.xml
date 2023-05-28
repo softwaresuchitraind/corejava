@@ -7,5 +7,14 @@
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="com.sukla.Calculator"/>
     <fullyQualifiedTypeName name="com.sukla.BookStore"/>
+    <fullyQualifiedTypeName name="com.sukla.comps.Car"/>
     <fullyQualifiedTypeName name="com.sukla.comps.BalenoCar"/>
+    <fullyQualifiedTypeName name="com.sukla.comps.CarTyres"/>
+    <fullyQualifiedTypeName name="com.sukla.comps.SwiftCar"/>
+    <fullyQualifiedTypeName name="com.sukla.comps.ErtigaCar"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalAccessException"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="com.nt.factory.CarFactory"/>
+    <fullyQualifiedTypeName name="com.nt.factory.CarType"/>
+    <fullyQualifiedTypeName name="com.sukla.comp.BajajBike"/>
 </qualifiedTypeNameHistroy>
