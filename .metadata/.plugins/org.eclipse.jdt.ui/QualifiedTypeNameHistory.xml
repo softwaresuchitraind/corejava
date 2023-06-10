@@ -3,8 +3,6 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="com.sukla.Student"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="com.sukla.Calculator"/>
     <fullyQualifiedTypeName name="com.sukla.BookStore"/>
     <fullyQualifiedTypeName name="com.sukla.comps.Car"/>
@@ -17,4 +15,13 @@
     <fullyQualifiedTypeName name="com.nt.factory.CarFactory"/>
     <fullyQualifiedTypeName name="com.nt.factory.CarType"/>
     <fullyQualifiedTypeName name="com.sukla.comp.BajajBike"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.function.Function"/>
+    <fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collector"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
 </qualifiedTypeNameHistroy>
