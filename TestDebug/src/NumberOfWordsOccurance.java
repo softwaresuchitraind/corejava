@@ -12,7 +12,8 @@ public class NumberOfWordsOccurance
 		String str = "Hello how are you how how you";
 		String[] newStr = str.split("\\s+");
 		
-		Map<String, Long> wordOccurances = Arrays.stream(newStr).collect(Collectors.groupingBy(String::toLowerCase,Collectors.counting()));
+		Map<String, Long> wordOccurances = Arrays.stream(newStr)
+				.collect(Collectors.groupingBy(String::toLowerCase,Collectors.counting()));
 		
 		for(Map.Entry<String, Long> entry : wordOccurances.entrySet())
 		{
