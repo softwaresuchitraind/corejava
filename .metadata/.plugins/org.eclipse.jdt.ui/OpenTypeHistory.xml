@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+    <typeInfo handle="=Proj01-SingleTon/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar=/javadoc_location=/https:\/\/docs.oracle.com\/javase\/8\/docs\/api\/=/&lt;java.util(ArrayList.class[ArrayList" modifiers="33" timestamp="1649851999042"/>
+    <typeInfo handle="=Proj01-SingleTon/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar=/javadoc_location=/https:\/\/docs.oracle.com\/javase\/8\/docs\/api\/=/&lt;java.util.function(Consumer.class[Consumer" modifiers="1537" timestamp="1649851999042"/>
+    <typeInfo handle="=Proj01-SingleTon/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar=/javadoc_location=/https:\/\/docs.oracle.com\/javase\/8\/docs\/api\/=/&lt;java.lang(Comparable.class[Comparable" modifiers="1537" timestamp="1649851999042"/>
+    <typeInfo handle="=Proj01-SingleTon/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar=/javadoc_location=/https:\/\/docs.oracle.com\/javase\/8\/docs\/api\/=/&lt;java.util(Comparator.class[Comparator" modifiers="1537" timestamp="1649851999042"/>
+    <typeInfo handle="=Proj01-SingleTon/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar=/javadoc_location=/https:\/\/docs.oracle.com\/javase\/8\/docs\/api\/=/&lt;java.lang(Integer.class[Integer" modifiers="49" timestamp="1649851999042"/>
+    <typeInfo handle="=Proj01-SingleTon/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar=/javadoc_location=/https:\/\/docs.oracle.com\/javase\/8\/docs\/api\/=/&lt;java.util(Optional.class[Optional" modifiers="49" timestamp="1649851999042"/>
+    <typeInfo handle="=Proj01-SingleTon/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar=/javadoc_location=/https:\/\/docs.oracle.com\/javase\/8\/docs\/api\/=/&lt;java.lang(Cloneable.class[Cloneable" modifiers="1537" timestamp="1649851999042"/>
+</typeInfoHistroy>

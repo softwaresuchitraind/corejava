@@ -14,7 +14,7 @@ public class M5
 		
 		//list.stream().map(x->x.toUpperCase()).forEach(System.out::println);
 		//list.stream().map(x->x.toUpperCase() +"::" +x.length()).forEach(System.out::println);
-		//list.stream().mapToInt(n->n.length()).forEach(System.out::println);
+		list.stream().mapToInt(n->n.length()).forEach(System.out::println);
 		list.stream().filter(x->x.startsWith("k")).map(k->k +" "+k.length() ).forEach(System.out::println);
 	}
 }
