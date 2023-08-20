@@ -12,7 +12,7 @@ public class M1 implements Vehicle
 	@Override
 	public void cleanVehicle()
 	{
-		System.out.println("Clean Vehicle...........");
+		System.out.println("Clean Vehicle info...........");
 		
 	}
 	public static void main(String[] args)
