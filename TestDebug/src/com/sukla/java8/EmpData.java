@@ -49,7 +49,8 @@ public class EmpData
 		
 		//Get the details of hight paid Employee in the organisation
 		
-		Optional<EmployeeData> collect3 = empList.stream().collect(Collectors.maxBy(Comparator.comparing(EmployeeData::getSalary)));
+		Optional<EmployeeData> collect3 = empList.stream()
+				.collect(Collectors.maxBy(Comparator.comparing(EmployeeData::getSalary)));
 		if(collect3.isPresent())
 		{
 			//System.out.println(collect3.get());
@@ -60,17 +61,21 @@ public class EmpData
 		//empList.stream().filter(x->x.yearOfJoining>2015).map(x->x.name).forEach(x->System.out.println(x));
 		
 		//count the number of employees in each dept
-		Map<String, Long> collect4 = empList.stream().collect(Collectors.groupingBy(EmployeeData::getDepartment,Collectors.counting()));
+		Map<String, Long> collect4 = empList.stream()
+				.collect(Collectors.groupingBy(EmployeeData::getDepartment,Collectors.counting()));
 		//System.out.println(collect4);
 		
 		//calculate the average salary of each dept
 		
-		Map<String, Double> collect5 = empList.stream().collect(Collectors.groupingBy(EmployeeData::getDepartment,Collectors.averagingDouble(EmployeeData::getSalary)));
+		Map<String, Double> collect5 = empList.stream()
+				.collect(Collectors.groupingBy(EmployeeData::getDepartment,Collectors.averagingDouble(EmployeeData::getSalary)));
 		//System.out.println(collect5);
 		
 		//Get the details of youngest male employee in the developement department
 		
-		Optional<EmployeeData> min = empList.stream().filter(e->e.getGender().equalsIgnoreCase("male") && e.getDepartment().equalsIgnoreCase("Development"))
+		Optional<EmployeeData> min = empList.stream()
+				.filter(e->e.getGender().equalsIgnoreCase("male") && e.getDepartment()
+						.equalsIgnoreCase("Development"))
 				.min(Comparator.comparing(EmployeeData::getAge));
 		
 		if(min.isPresent())
@@ -80,7 +85,8 @@ public class EmpData
 		
 		//Who is the most experienced person in the organisation
 		
-		Optional<EmployeeData> min2 = empList.stream().min(Comparator.comparing(EmployeeData::getYearOfJoining));
+		Optional<EmployeeData> min2 = empList.stream()
+				.min(Comparator.comparing(EmployeeData::getYearOfJoining));
 		if(min2.isPresent())
 		{
 			//System.out.println(min2.get());
@@ -96,12 +102,14 @@ public class EmpData
 		
 		//Employee has the hightest Salary
 		
-		Optional<EmployeeData> collect7 = empList.stream().collect(Collectors.maxBy(Comparator.comparing(x->x.getSalary())));
+		Optional<EmployeeData> collect7 = empList.stream()
+				.collect(Collectors.maxBy(Comparator.comparing(x->x.getSalary())));
 		//System.out.println(collect7.get());
 		
 		//2nd highest salary
 		
-		Optional<Double> first = empList.stream().map(x->x.getSalary()).sorted(Collections.reverseOrder()).limit(2).skip(1).findFirst();
+		Optional<Double> first = empList.stream().map(x->x.getSalary()).
+				sorted(Collections.reverseOrder()).limit(2).skip(1).findFirst();
 		//System.out.println(first);
 		Optional<EmployeeData> first2 = empList.stream().sorted(Comparator.comparing(EmployeeData::getSalary).reversed()).skip(1).findFirst();
 		//System.out.println(first2);

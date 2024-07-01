@@ -9,7 +9,8 @@ public class LetterCount
 	public static void main(String[] args)
 	{
 		String arr[]= {"hello","mango","Hi","Hello"};
-		//Map<String,Long> collect1 = Arrays.stream(arr).collect(Collectors.groupingBy(Function.identity(),Function.identity().toString().length()));
+		//Map<String,Long> collect1 = Arrays.stream(arr)
+		     .collect(Collectors.groupingBy(Function.identity(),Function.identity().toString().length()));
 		//System.out.println(collect1);
 		int arrl[]= lengthofEachElement(arr);
 		for(int i=0;i<arr.length;i++)
