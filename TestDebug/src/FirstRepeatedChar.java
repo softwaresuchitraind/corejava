@@ -4,7 +4,7 @@ public class FirstRepeatedChar
 {
 	public static void main(String[] args)
 	{
-		String s1 = "helo";
+		String s1 = "heloee";
 		
 		
 		Character s2 =firstRepeatingChar(s1);
