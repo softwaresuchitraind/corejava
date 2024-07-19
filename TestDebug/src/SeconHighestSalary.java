@@ -15,7 +15,12 @@ public class SeconHighestSalary
 		map.put("Hi", 400);
 		map.put("Self", 800);
 		
-		Integer secondHighestSalary = map.values().stream().sorted(Comparator.reverseOrder()).distinct().skip(1).findFirst().orElse(-1);
+		Integer secondHighestSalary = map.values().stream()
+				.sorted(Comparator.reverseOrder())
+				.distinct()
+				.skip(1)
+				.findFirst()
+				.orElse(-1);
 		System.out.println(secondHighestSalary);
 	}
 }

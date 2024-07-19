@@ -44,7 +44,8 @@ public class EmpData
 		
 		//print average age of all male and female employess
 		
-		Map<String, Double> collect2 = empList.stream().collect(Collectors.groupingBy(EmployeeData::getGender,Collectors.averagingInt(EmployeeData::getAge)));
+		Map<String, Double> collect2 = empList.stream()
+				.collect(Collectors.groupingBy(EmployeeData::getGender,Collectors.averagingInt(EmployeeData::getAge)));
 		//System.out.println(collect2);
 		
 		//Get the details of hight paid Employee in the organisation
@@ -111,10 +112,12 @@ public class EmpData
 		Optional<Double> first = empList.stream().map(x->x.getSalary()).
 				sorted(Collections.reverseOrder()).limit(2).skip(1).findFirst();
 		//System.out.println(first);
-		Optional<EmployeeData> first2 = empList.stream().sorted(Comparator.comparing(EmployeeData::getSalary).reversed()).skip(1).findFirst();
+		Optional<EmployeeData> first2 = empList.stream()
+				.sorted(Comparator.comparing(EmployeeData::getSalary).reversed()).skip(1).findFirst();
 		//System.out.println(first2);
-		List<EmployeeData> collect8 = empList.stream().sorted(Comparator.comparing(EmployeeData::getSalary).reversed()).collect(Collectors.toList());
-		System.out.println(collect8.get(1));
+		List<EmployeeData> collect8 = empList.stream()
+				.sorted(Comparator.comparing(EmployeeData::getSalary).reversed()).collect(Collectors.toList());
+		//System.out.println(collect8.get(1));
 	}
 }
 class EmployeeData

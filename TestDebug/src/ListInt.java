@@ -16,10 +16,10 @@ public class ListInt
 		list.add(list1);
 		list.add(list2);
 		list.add(list3);
-		//System.out.println(list);
+		System.out.println(list);
 		
 		 List<Integer> collect = list.stream().flatMap(x->x.stream()).collect(Collectors.toList());
-		 //System.out.println(collect);
+		 System.out.println(collect);
 		 
 		 List<String> list5 =Arrays.asList("hello","abc","india","duty","bangalore","hello","india","india");
 		 Map<String, Long> collect2 = list5.stream().collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
